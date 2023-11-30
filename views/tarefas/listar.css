@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 50%;
+ }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid white;
+}
+
+th {
+    background-color: grey;
+}
+
+tbody tr:nth-child(even) {
+    background-color: grey;
+}
+
+a {
+    display: block;
+    text-align: top right;
+    margin-top: 20px;
+    color: cyan;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightcyan;
+}
+
+.deletar {
+    color: red;
+}
+
+.deletar:hover {
+    color: darkred;
+}
+
+.pagination {
+    text-align: center;
+}
+
+.pagination a {
+    margin: 0 5px;
+}
+
+.pagination a:hover {
+    color: lightcyan;
+}
+
+.pagination strong {
+    color: green;
+}
